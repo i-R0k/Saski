@@ -4,8 +4,10 @@ Aplikacja do prowadzenia harmonogramu leków i kontroli masy ciała królika Sas
 
 ## Pobieranie
 
-Pobierz plik `Saski-Leki-v1.1.apk` z repozytorium.
+Pobierz `Saski-Leki-v1.1.apk`.
+
+Przed instalacją tej poprawionej kompilacji należy odinstalować wcześniejszą wadliwą wersję 1.1, ponieważ aplikacja została podpisana nowym kluczem.
 
 - wersja: **1.1**
-- versionCode: **2**
-- SHA-256: `04ac3d9548b50b706cd70cf4e7959b1945776aefe6415cff7c26d0945d0195ac`
+- versionCode: **3**
+- SHA-256: `ef845ad33e0c9cdcce54cf24537af0d04c7ceca16175e747728a9319763330af`
