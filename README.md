@@ -2,12 +2,12 @@
 
 Aplikacja do prowadzenia harmonogramu leków i kontroli masy ciała królika Saskiego.
 
-## Pobieranie
+## Najnowsza wersja
 
-Pobierz `Saski-Leki-v1.1.apk`.
+Pobierz `Saski-Leki-v1.1.1.apk`.
 
-Przed instalacją tej poprawionej kompilacji należy odinstalować wcześniejszą wadliwą wersję 1.1, ponieważ aplikacja została podpisana nowym kluczem.
+Zmiana w 1.1.1: NefroActive (`1 kapsułka`) został przeniesiony z pory wieczornej na poranną.
 
-- wersja: **1.1**
-- versionCode: **3**
-- SHA-256: `ef845ad33e0c9cdcce54cf24537af0d04c7ceca16175e747728a9319763330af`
+- wersja: **1.1.1**
+- versionCode: **4**
+- SHA-256: `a2353273083823247c092583b8c428357f589702d5dd5b4807e8769819665bab`
