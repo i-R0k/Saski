@@ -10,8 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Rozpakuj źródła
-        run: base64 -d project-src.b64 | tar -xJ
+      - name: Rozpakuj źródła tylko przy pierwszym uruchomieniu
+        run: |
+          if [ ! -f app/src/main/java/pl/saski/gaba/MainActivity.java ]; then
+            base64 -d project-src.b64 | tar -xJ
+          fi
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
