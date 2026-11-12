@@ -6,6 +6,5 @@
         <item name="android:navigationBarColor">#10121B</item>
         <item name="android:colorAccent">#B5A2FF</item>
         <item name="android:windowActionModeOverlay">true</item>
-        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
     </style>
 </resources>

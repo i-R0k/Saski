@@ -211,11 +211,7 @@ public class MainActivity extends Activity {
             });
             dose.addView(check,lp(42,46,0));
             LinearLayout info=vertical();TextView nm=label(m.name,16,isDone?GOOD:INK,true);info.addView(nm);
-            String instruction=m.dose + "  •  " + m.note;
-            if(isDone) instruction += "  •  Podano o " +
-                new SimpleDateFormat("HH:mm",new Locale("pl","PL")).format(
-                    new Date(prefs.getLong(key(day,m,s),0L)));
-            info.addView(label(instruction,12,MUTED,false));
+            info.addView(label(m.dose + "  •  " + m.note,12,MUTED,false));
             dose.addView(info,weighted());
             dose.setOnClickListener(v->check.setChecked(!check.isChecked()));
             card.addView(dose);

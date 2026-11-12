@@ -3,7 +3,7 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-    <application android:allowBackup="false" android:label="Gaba – Leki"
+    <application android:allowBackup="true" android:label="Gaba – Leki"
         android:theme="@style/AppTheme" android:usesCleartextTraffic="false"
         android:icon="@drawable/ic_gaba" android:roundIcon="@drawable/ic_gaba">
         <activity android:name=".MainActivity" android:exported="true">
