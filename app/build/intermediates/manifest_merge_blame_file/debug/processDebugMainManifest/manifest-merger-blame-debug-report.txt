@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="pl.saski.gaba"
+4    android:versionCode="1"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+11-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:3:5-77
+11-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:3:22-74
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:4:5-81
+12-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:4:22-78
+13    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+13-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:5:5-79
+13-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:5:22-76
+14
+15    <application
+15-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:6:5-20:19
+16        android:allowBackup="true"
+16-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:6:18-44
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@drawable/ic_gaba"
+19-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:8:9-41
+20        android:label="Gaba – Leki"
+20-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:6:45-72
+21        android:roundIcon="@drawable/ic_gaba"
+21-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:8:42-79
+22        android:theme="@style/AppTheme"
+22-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:7:9-40
+23        android:usesCleartextTraffic="false" >
+23-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:7:41-77
+24        <activity
+24-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:9:9-14:20
+25            android:name="pl.saski.gaba.MainActivity"
+25-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:9:19-47
+26            android:exported="true" >
+26-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:9:48-71
+27            <intent-filter>
+27-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:10:13-13:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:11:17-69
+28-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:11:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:12:17-77
+30-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:12:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <receiver
+34-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:15:9-72
+35            android:name="pl.saski.gaba.Reminders"
+35-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:15:19-44
+36            android:exported="false" />
+36-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:15:45-69
+37        <receiver
+37-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:16:9-19:20
+38            android:name="pl.saski.gaba.BootReceiver"
+38-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:16:19-47
+39            android:enabled="true"
+39-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:16:48-70
+40            android:exported="false" >
+40-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:16:71-95
+41            <intent-filter>
+41-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:17:13-106
+42                <action android:name="android.intent.action.BOOT_COMPLETED" />
+42-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:17:28-90
+42-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:17:36-87
+43            </intent-filter>
+44            <intent-filter>
+44-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:18:13-111
+45                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+45-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:18:28-95
+45-->/home/runner/work/Saski/Saski/app/src/main/AndroidManifest.xml:18:36-92
+46            </intent-filter>
+47        </receiver>
+48    </application>
+49
+50</manifest>

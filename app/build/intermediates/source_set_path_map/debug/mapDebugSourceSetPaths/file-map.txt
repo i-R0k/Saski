@@ -1,0 +1,7 @@
+pl.saski.gaba.app-pngs-0 /home/runner/work/Saski/Saski/app/build/generated/res/pngs/debug
+pl.saski.gaba.app-resValues-1 /home/runner/work/Saski/Saski/app/build/generated/res/resValues/debug
+pl.saski.gaba.app-packageDebugResources-2 /home/runner/work/Saski/Saski/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+pl.saski.gaba.app-packageDebugResources-3 /home/runner/work/Saski/Saski/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+pl.saski.gaba.app-debug-4 /home/runner/work/Saski/Saski/app/build/intermediates/merged_res/debug/mergeDebugResources
+pl.saski.gaba.app-debug-5 /home/runner/work/Saski/Saski/app/src/debug/res
+pl.saski.gaba.app-main-6 /home/runner/work/Saski/Saski/app/src/main/res

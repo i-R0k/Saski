@@ -1,0 +1,2 @@
+pl.saski.gaba:style/AppTheme = 0x7f020000
+pl.saski.gaba:drawable/ic_gaba = 0x7f010000
